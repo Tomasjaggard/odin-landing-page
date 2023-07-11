@@ -21,11 +21,12 @@ body{
 
 nav{
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
+    padding: 0px 50px;
 }
 
-.left-nav{
+.left-nav p{
     font-size: 24px;
     color: #f9faf8;
 }
@@ -44,7 +45,7 @@ a{
 }
 
 .main{
-    padding: 50px;
+    padding: 50px 50px;
     background-color: #1F2937;
     display: flex;
     align-items: center;
@@ -73,15 +74,19 @@ button{
     font-weight: bold;
 }
 
-.main-left li{
+.main-left p{
     list-style: none;
     color: #E5E7EB;
     font-size: 18px;
-    padding-left: 30px;
+    padding-bottom: 5px;
+}
+
+.main-right img{
+    flex-grow: 1;
 }
 
 .info{
-    padding: 50px;
+    padding: 0px 50px;
     background-color: white;
     display: flex;
     flex-direction: column;
@@ -91,7 +96,7 @@ button{
 }
 
 .title{
-    padding: 10px 0px;
+    padding: 10px 50px;
     color: #1F2937;
     font-size: 20px;
     font-weight: bold;
@@ -100,6 +105,7 @@ button{
 }
 
 .blocks{
+    padding: 10px 50px;
     display: flex;
     justify-content: center;
     align-items: center;
